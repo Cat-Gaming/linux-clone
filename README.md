@@ -23,7 +23,7 @@ for singlethreaded building do:
 make
 ```
 
-#Running the Project
+# Running the Project
 ```
 qemu-system-x86_64 -kernel linux.bin
 ```
