@@ -5,11 +5,11 @@ this is a Linux Clone
 # Prerequisites
 Install qemu on debian based systems by:
 ```
-sudo apt install qemu
+sudo apt install qemu make
 ```
 And by arch based systems by:
 ```
-sudo pacman -S qemu-git
+sudo pacman -S qemu-git make
 ```
 
 # To Build
