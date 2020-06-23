@@ -9,6 +9,10 @@ header_end:
 section .text
 global _start
 _start:
+    call bit_mode_64
+
+bits 64
+bit_mode_64:
     extern kmain
     cli
     call kmain

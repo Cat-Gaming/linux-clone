@@ -16,4 +16,9 @@ kmain()
     printk("This is a Test Kernel Please Do not USE in Production", 0x0C, 1);
 
     test_keyboard();
+    while (1)
+    {
+        
+    }
+    
 }
